@@ -1,16 +1,20 @@
 ---
-title: "tutorial"
-author: "Miaojin Hu"
-date: "2023-11-11"
-output: pdf_document
+title: "linearregression"
+output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{linearregression.package tutorial}
+  %\VignetteIndexEntry{linearregression}
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding[UTF-8]{inputenc}
+  %\VignetteEncoding{UTF-8}
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
 library(linearregression)
 ```
 
@@ -25,6 +29,7 @@ result=linear_regression_function(mtcars, "mpg", c("cyl","disp","hp"))
 result
 
 ```
+
 
 Comparison:
 ```{r}
@@ -129,12 +134,3 @@ model2_func
 
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
