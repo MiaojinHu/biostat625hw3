@@ -27,3 +27,11 @@ result=linear_regression_function(mtcars, "mpg", c("cyl","disp","hp"))
 result
 ```
 
+The output will be a list containing following information:
+``` r
+![output1](man/figures/1.png)
+![output2](man/figures/2.png)
+![output3](man/figures/3.png)
+
+```
+The output provides many information of the data, such as coefficients, t-statistics,p-value, confidence intervals, F-statistics, degree freedom, R-squared and adjusted-R-squared, etc.
