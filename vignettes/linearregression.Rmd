@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
+library(bench)
 library(linearregression)
 ```
 
@@ -112,8 +113,6 @@ print(paste("F statistics and degree freedom equal:TRUE"))
 
 Efficiency
 ```{r}
-library(bench)
-
 benchmark=bench::mark(
   linear_regression_function=linear_regression_function(mtcars,"mpg",c("cyl","disp","hp")),
   lm=lm(mpg~cyl+disp+hp,data=mtcars),
