@@ -6,7 +6,7 @@
 [![Codecov test coverage](https://codecov.io/gh/MiaojinHu/biostat625hw3/branch/main/graph/badge.svg)](https://app.codecov.io/gh/MiaojinHu/biostat625hw3?branch=main)
 <!-- badges: end -->
 
-The linearregression R package is designed to compute data related to linear regression. Providing with a dataframe, dependent variable, and covariates, it will return a list including residuals, coefficients, degrees of freedom, t/F statistic values, and p-values, among others. 
+The linearregression R package is designed to calculate data related to linear regression. Providing with dataframe, dependent variable, and covariates, it will return a list including residuals, coefficients, 95% confidence intervals, degree of freedom, t-statistics, F-statistic values, and p-values, etc. 
 
 ## Installation
 
