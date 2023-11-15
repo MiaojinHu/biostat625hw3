@@ -113,7 +113,7 @@ print(paste("F statistics and degree freedom equal:TRUE"))
 Efficiency
 ```{r}
 library(bench)
-benchmark=mark(
+benchmark=bench::mark(
   linear_regression_function=linear_regression_function(mtcars,"mpg",c("cyl","disp","hp")),
   lm=lm(mpg~cyl+disp+hp,data=mtcars),
   check = FALSE
