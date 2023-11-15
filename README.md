@@ -30,9 +30,9 @@ result
 
 The output will be a list containing following information:
 ``` r
-![output1](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/1.png)
-![output2](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/2.png)
-![output3](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/3.png)
+![output1](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/1.png?raw=true)
+![output2](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/2.png?raw=true)
+![output3](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/3.png?raw=true)
 
 ```
 The output provides many information of the mtcars data, such as coefficients, t-statistics,p-value, confidence intervals, F-statistics, degree freedom, R-squared and adjusted-R-squared, etc.
