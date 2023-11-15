@@ -19,6 +19,7 @@ devtools::install_github("MiaojinHu/biostat625hw3")
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
+The mtcars are the data we want to explore, the mpg is the variable name of the outcome, the cyl, disp, and hp are the covariates names.
 
 ``` r
 library(linearregression)
@@ -29,9 +30,9 @@ result
 
 The output will be a list containing following information:
 ``` r
-![output1](man/figures/1.png)
-![output2](man/figures/2.png)
-![output3](man/figures/3.png)
+![output1](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/1.png)
+![output2](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/2.png)
+![output3](https://github.com/MiaojinHu/biostat625hw3/blob/main/man/figures/3.png)
 
 ```
-The output provides many information of the data, such as coefficients, t-statistics,p-value, confidence intervals, F-statistics, degree freedom, R-squared and adjusted-R-squared, etc.
+The output provides many information of the mtcars data, such as coefficients, t-statistics,p-value, confidence intervals, F-statistics, degree freedom, R-squared and adjusted-R-squared, etc.
