@@ -4,7 +4,7 @@ Title: Linear Regression R package
 Version: 0.1.0
 Author: Miaojin Hu
 Maintainer: Miaojin Hu <miaojinh@umich.edu>
-Description: This R package is used to calculate data related to linear regression models.
+Description: This R package is designed to calculate data related to linear regression models.
 License: GPL(>=3)
 Encoding: UTF-8
 LazyData: true
