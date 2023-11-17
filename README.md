@@ -29,7 +29,13 @@ result
 ```
 
 The output will be a list containing following information:
-``` r
 
-```
-The output provides many information of the mtcars data, such as coefficients, t-statistics, p-value, 95% confidence intervals, F-statistics, degree freedom, R-squared and adjusted-R-squared, etc.
+<img width="442" alt="1" src="https://user-images.githubusercontent.com/149199735/283658356-87edaa33-d137-49c5-aaeb-9594fb284dbd.png">
+
+<img width="397" alt="2" src="https://user-images.githubusercontent.com/149199735/283658372-ff72e6fb-cf7a-4f97-8e8b-b9a9fb27861b.png">
+
+<img width="517" alt="3" src="https://user-images.githubusercontent.com/149199735/283658384-76497cae-a4c2-4762-b23f-c236779dab96.png">
+
+The first image provides information of residuals standard error, F-statistics, p-value of F statistics, degree freedom, R-squared and adjusted-R-squared.
+The second image provides information of residuals.
+The third image provides information of coefficients, including estimates, standard error of estimates, 95% confidence intervals, t-statistics, and p-value. 
